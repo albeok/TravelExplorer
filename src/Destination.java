@@ -1,8 +1,8 @@
 
 public class Destination{
-	private int id;
-	private String city;
-	private String country;
+	private final int id;
+	private final String city;
+	private final String country;
 	
 	public Destination(int id,String city,String country){
 		this.id=id;

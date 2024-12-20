@@ -1,9 +1,9 @@
 
 public class Reservation{
 	
-	private int id;
-	private int destinationId;
-	private String customerName;
+	private final int id;
+	private final int destinationId;
+	private final String customerName;
 	
 	public Reservation(int id,int destinationId,String customerName){
 		this.id=id;
